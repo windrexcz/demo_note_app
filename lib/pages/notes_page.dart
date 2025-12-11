@@ -388,31 +388,34 @@ class _NotesPageState extends ConsumerState<NotesPage> {
                       },
                     ),
                     const SizedBox(height: 16),
-                    Text(
-                      l10n.topicsLabel,
-                      style: const TextStyle(fontWeight: FontWeight.bold),
-                    ),
-                    const SizedBox(height: 8),
-                    Wrap(
-                      spacing: 8,
-                      runSpacing: 8,
-                      children: topicsState.topics.map((topic) {
-                        final isSelected = selectedTopicIds.contains(topic.id);
-                        return FilterChip(
-                          label: Text(topic.name),
-                          selected: isSelected,
-                          onSelected: (selected) {
-                            setState(() {
-                              if (selected) {
-                                selectedTopicIds.add(topic.id);
-                              } else {
-                                selectedTopicIds.remove(topic.id);
-                              }
-                            });
-                          },
-                        );
-                      }).toList(),
-                    ),
+                    if (topicsState.topics.isNotEmpty) ...[
+                      Text(
+                        l10n.topicsLabel,
+                        style: const TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(height: 8),
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 8,
+                        children: topicsState.topics.map((topic) {
+                          final isSelected =
+                              selectedTopicIds.contains(topic.id);
+                          return FilterChip(
+                            label: Text(topic.name),
+                            selected: isSelected,
+                            onSelected: (selected) {
+                              setState(() {
+                                if (selected) {
+                                  selectedTopicIds.add(topic.id);
+                                } else {
+                                  selectedTopicIds.remove(topic.id);
+                                }
+                              });
+                            },
+                          );
+                        }).toList(),
+                      ),
+                    ],
                     const SizedBox(height: 16),
                     IconPicker(
                       selectedIcon: selectedIcon,
@@ -509,32 +512,35 @@ class _NotesPageState extends ConsumerState<NotesPage> {
                         return null;
                       },
                     ),
-                    const SizedBox(height: 16),
-                    Text(
-                      l10n.topicsLabel,
-                      style: const TextStyle(fontWeight: FontWeight.bold),
-                    ),
-                    const SizedBox(height: 8),
-                    Wrap(
-                      spacing: 8,
-                      runSpacing: 8,
-                      children: topicsState.topics.map((topic) {
-                        final isSelected = selectedTopicIds.contains(topic.id);
-                        return FilterChip(
-                          label: Text(topic.name),
-                          selected: isSelected,
-                          onSelected: (selected) {
-                            setState(() {
-                              if (selected) {
-                                selectedTopicIds.add(topic.id);
-                              } else {
-                                selectedTopicIds.remove(topic.id);
-                              }
-                            });
-                          },
-                        );
-                      }).toList(),
-                    ),
+                    if (topicsState.topics.isNotEmpty) ...[
+                      const SizedBox(height: 16),
+                      Text(
+                        l10n.topicsLabel,
+                        style: const TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(height: 8),
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 8,
+                        children: topicsState.topics.map((topic) {
+                          final isSelected =
+                              selectedTopicIds.contains(topic.id);
+                          return FilterChip(
+                            label: Text(topic.name),
+                            selected: isSelected,
+                            onSelected: (selected) {
+                              setState(() {
+                                if (selected) {
+                                  selectedTopicIds.add(topic.id);
+                                } else {
+                                  selectedTopicIds.remove(topic.id);
+                                }
+                              });
+                            },
+                          );
+                        }).toList(),
+                      ),
+                    ],
                     const SizedBox(height: 16),
                     IconPicker(
                       selectedIcon: selectedIcon,
