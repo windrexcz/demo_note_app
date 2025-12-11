@@ -27,6 +27,16 @@ Tento projekt je jednoduchá flutter aplikace pro poznámky, která umožňuje u
 - Responsivní design pro různé velikosti obrazovek
 - Routing pomocí go_router
 
+### Instalace
+
+#### Dev build
+1. Naklonování repozitáře
+2. Spuštění přikazu spuštění dev buildu: ``` flutter run ```
+
+#### Release build
+1. Nainstalování **app.apk** na cílovém zařízení
+
+
 #### Zdroje
 
 Využitá ikona aplikace pochází z Flaticon:
