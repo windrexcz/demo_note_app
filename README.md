@@ -1,6 +1,4 @@
-# adbros_note_app
-
-Demonstrační projekt pro Adbros
+Demonstrační flutter projekt 
 
 ## Popis projektu
 
@@ -9,7 +7,6 @@ Tento projekt je jednoduchá flutter aplikace pro poznámky, která umožňuje u
 ## Funkce
 
 ### Poznámky:
-
 - Stránka pro zobrazení
 - Fulltext vyhledávání / odfiltrování důležitých poznámek
 - Dialog pro vytvoření / úpravu
@@ -17,14 +14,13 @@ Tento projekt je jednoduchá flutter aplikace pro poznámky, která umožňuje u
 - Tap and hold -> Kontext menu
 
 ### Témata
-
 - Stránka pro zobrazení
 - Dialog pro vytvoření / úpravu
 - Tap -> Vyfiltrování poznámek z daného tématu
 - Tap and hold -> Kontext menu
 
 ### Misc
-
+- Načtení příkladových dat
 - Lokalizace pro češtinu a angličtinu
 - Ukládání poznámek pomocí Hive databáze
 - Použití Riverpod pro správu stavu
