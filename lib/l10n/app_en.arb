@@ -1,0 +1,252 @@
+{
+  "appTitle": "Note App",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "notes": "Notes",
+  "@notes": {
+    "description": "Navigation label for notes section"
+  },
+  "topics": "Topics",
+  "@topics": {
+    "description": "Navigation label for topics section"
+  },
+  "newNote": "New Note",
+  "@newNote": {
+    "description": "Button to create a new note"
+  },
+  "editNote": "Edit Note",
+  "@editNote": {
+    "description": "Title for editing a note"
+  },
+  "deleteNote": "Delete Note",
+  "@deleteNote": {
+    "description": "Action to delete a note"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Button to save"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "created": "Created",
+  "@created": {
+    "description": "Label for creation date"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Add button"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit action"
+  },
+  "searchNotes": "Search notes...",
+  "@searchNotes": {
+    "description": "Placeholder for search field"
+  },
+  "title": "Title",
+  "@title": {
+    "description": "Note title field label"
+  },
+  "titleHint": "Enter note title",
+  "@titleHint": {
+    "description": "Hint text for title field"
+  },
+  "content": "Content",
+  "@content": {
+    "description": "Note content field label"
+  },
+  "contentHint": "Enter note content",
+  "@contentHint": {
+    "description": "Hint text for content field"
+  },
+  "emptyNotes": "No notes yet",
+  "@emptyNotes": {
+    "description": "Message when there are no notes"
+  },
+  "noNotesFound": "No notes found",
+  "@noNotesFound": {
+    "description": "Message when search returns no results"
+  },
+  "emptyTopics": "No topics yet",
+  "@emptyTopics": {
+    "description": "Message when there are no topics"
+  },
+  "confirmDeleteMessage": "Are you sure you want to delete this note?",
+  "@confirmDeleteMessage": {
+    "description": "Message asking to confirm note deletion"
+  },
+  "confirmDeleteNoteMessage": "Are you sure you want to delete \"{title}\"?",
+  "@confirmDeleteNoteMessage": {
+    "description": "Message asking to confirm note deletion with title",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "My Note"
+      }
+    }
+  },
+  "showOnlyImportant": "Show Only Important",
+  "@showOnlyImportant": {
+    "description": "Toggle to show only important notes"
+  },
+  "addNote": "Add New Note",
+  "@addNote": {
+    "description": "Action to add a new note"
+  },
+  "toggleSearch": "Toggle Note Search",
+  "@toggleSearch": {
+    "description": "Action to show/hide note search"
+  },
+  "newTopic": "New Topic",
+  "@newTopic": {
+    "description": "Button to create a new topic"
+  },
+  "topicName": "Topic Name",
+  "@topicName": {
+    "description": "Label for topic name field"
+  },
+  "topicNameHint": "Enter topic name",
+  "@topicNameHint": {
+    "description": "Hint text for topic name field"
+  },
+  "description": "Description",
+  "@description": {
+    "description": "Description field label"
+  },
+  "descriptionHint": "Enter description",
+  "@descriptionHint": {
+    "description": "Hint text for description field"
+  },
+  "topicsLabel": "Topics:",
+  "@topicsLabel": {
+    "description": "Label for topics section"
+  },
+  "setImportant": "Set Important",
+  "@setImportant": {
+    "description": "Action to mark note as important"
+  },
+  "unsetImportant": "Unset Important",
+  "@unsetImportant": {
+    "description": "Action to unmark note as important"
+  },
+  "editTopic": "Edit Topic",
+  "@editTopic": {
+    "description": "Action to edit a topic"
+  },
+  "deleteTopic": "Delete Topic",
+  "@deleteTopic": {
+    "description": "Action to delete a topic"
+  },
+  "confirmDeleteTopic": "Delete Topic?",
+  "@confirmDeleteTopic": {
+    "description": "Title for topic deletion confirmation dialog"
+  },
+  "deleteTopicMessage": "What would you like to do with notes in this topic?",
+  "@deleteTopicMessage": {
+    "description": "Message asking what to do with notes when deleting topic"
+  },
+  "deleteTopicOnly": "Delete topic only",
+  "@deleteTopicOnly": {
+    "description": "Option to delete only the topic, keeping notes"
+  },
+  "deleteTopicOnlyDescription": "Notes will remain, but topic will be removed from them",
+  "@deleteTopicOnlyDescription": {
+    "description": "Description for delete topic only option"
+  },
+  "deleteTopicAndNotes": "Delete topic and all notes",
+  "@deleteTopicAndNotes": {
+    "description": "Option to delete topic and all associated notes"
+  },
+  "deleteTopicAndNotesDescription": "All notes in this topic will be permanently deleted",
+  "@deleteTopicAndNotesDescription": {
+    "description": "Description for delete topic and notes option"
+  },
+  "topicDeletedWithNotes": "Topic and {count} note(s) deleted",
+  "@topicDeletedWithNotes": {
+    "description": "Message shown when topic and notes are deleted",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "topicDeleted": "Topic deleted",
+  "@topicDeleted": {
+    "description": "Message shown when topic is deleted"
+  },
+  "topicContainsNotes": "{count, plural, =1{Topic contains 1 note} other{Topic contains {count} notes}}",
+  "@topicContainsNotes": {
+    "description": "Shows how many notes are in the topic",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "removeIcon": "Remove icon",
+  "@removeIcon": {
+    "description": "Button to remove the selected icon"
+  },
+  "iconLabel": "Icon",
+  "@iconLabel": {
+    "description": "Label for icon selection section"
+  },
+  "validationTitleRequired": "Title is required",
+  "@validationTitleRequired": {
+    "description": "Validation error when title is empty"
+  },
+  "validationContentRequired": "Content is required",
+  "@validationContentRequired": {
+    "description": "Validation error when content is empty"
+  },
+  "validationTopicNameRequired": "Topic name is required",
+  "@validationTopicNameRequired": {
+    "description": "Validation error when topic name is empty"
+  },
+  "errorPrefix": "Error",
+  "@errorPrefix": {
+    "description": "Prefix for error messages"
+  },
+  "noteNotFoundTitle": "Note Not Found",
+  "@noteNotFoundTitle": {
+    "description": "Title when note is not found"
+  },
+  "noteNotFoundMessage": "The requested note was not found",
+  "@noteNotFoundMessage": {
+    "description": "Message when note is not found"
+  },
+  "markAsImportant": "Mark as important",
+  "@markAsImportant": {
+    "description": "Tooltip to mark note as important"
+  },
+  "markAsNotImportant": "Mark as not important",
+  "@markAsNotImportant": {
+    "description": "Tooltip to unmark note as important"
+  },
+  "loadSampleDataTitle": "Load Sample Data?",
+  "@loadSampleDataTitle": {
+    "description": "Title for dialog asking to load sample data"
+  },
+  "loadSampleDataMessage": "Your notes and topics are empty. Would you like to load sample data to see how the app works?",
+  "@loadSampleDataMessage": {
+    "description": "Message asking user if they want to load sample data"
+  },
+  "loadSampleData": "Load Sample Data",
+  "@loadSampleData": {
+    "description": "Button to load sample data"
+  },
+  "noThanks": "No, Thanks",
+  "@noThanks": {
+    "description": "Button to decline loading sample data"
+  }
+}
